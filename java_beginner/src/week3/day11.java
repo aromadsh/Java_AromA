@@ -1,9 +1,9 @@
-package hello;
+package week3;
 
-public class arrangement {
+public class day11 {
 
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub
 		int[] value = {10, 8, 8, 9, 9};
 		
 		System.out.println(value[0]);
@@ -21,8 +21,6 @@ public class arrangement {
 		for (int i = 0; i < length; i++) {
 			System.out.printf("%d 번째 인덱스에 저장된 값은 %d 입니다.\n", i, values[i]);
 		}
-		
-		
 	}
-	
+
 }

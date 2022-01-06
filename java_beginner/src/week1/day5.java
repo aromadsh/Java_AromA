@@ -1,6 +1,6 @@
-package hello;
+package week1;
 
-public class print {
+public class day5 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -21,7 +21,6 @@ public class print {
 		System.out.printf("a는 %d\n", a);
 		System.out.printf("b는 %d\n", b);
 		System.out.printf("a+b는 %d, a-b는 %d, a*b는 %d\n", a+b, a-b, a*b);
-		
 	}
 
 }

@@ -1,10 +1,11 @@
-package hello;
+package week2;
+
 import java.util.Scanner;
 
-public class loop {
+public class day10 {
 
 	public static void main(String[] args) {
-		
+		// TODO Auto-generated method stub
 		// 1. while
 		int a = 0;
 		
@@ -13,7 +14,7 @@ public class loop {
 			System.out.println(a);
 			a++;
 		}
-		
+				
 		System.out.println("반복문 끝!");
 		System.out.println(a);
 		
@@ -56,7 +57,6 @@ public class loop {
 				System.out.println("땡! 다시 입력해주세요.");
 			}
 		} while (num != answer);
-		
 	}
 
 }

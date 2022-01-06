@@ -1,9 +1,11 @@
-package hello;
+package week2;
+
 import java.util.Scanner;
 
-public class control {
+public class day9 {
 
 	public static void main(String[] args) {
+		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		
 		System.out.println("숫자를 적어 주세요.");
@@ -80,7 +82,6 @@ public class control {
 		default :
 			System.out.println("a는 1~4가 아닙니다.");
 		}
-		
 	}
 
 }

@@ -1,12 +1,12 @@
 package week1;
 
-public class day1 {
+public class day3 {
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		System.out.println("자바를 꼭 자바~");
 		
-		// Hadoop 플랫폼에 관심이 많아서 Java를 공부하기로 결정하였습니다.
-
 	}
 
 }

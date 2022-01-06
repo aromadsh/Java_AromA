@@ -1,10 +1,11 @@
-package hello;
+package week1;
 
-public class HelloWorld {
+public class day2 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("자바를 꼭 자바~");
+		
+		// 설치 완료
 
 	}
 
