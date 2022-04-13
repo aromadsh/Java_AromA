@@ -138,7 +138,7 @@ public class bcgmatrix {
 		                        	Q1 = 10;
 		                            break loop;}
 		                        else {
-		                           System.out.println("1���� 2�� �߿����� �����ϼ���.");}}
+		                           System.out.println("보기의 숫자를 다시 한번 확인해 주세요.");}}
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q2.txt");
@@ -151,7 +151,7 @@ public class bcgmatrix {
 		                        	Q2 = 5;
 		                            break loop;} 
 		                        else {
-		                        	System.out.println("1���� 2�� �߿����� �����ϼ���.");}}
+		                        	System.out.println("보기의 숫자를 다시 한번 확인해 주세요.");}}
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q3.txt");
@@ -167,7 +167,7 @@ public class bcgmatrix {
 		                        	Q3 = 5;
 		                            break loop;} 
 		                        else {
-		                        	System.out.println("1�� 2��  3�� �߿����� �����ϼ���.");}}
+		                        	System.out.println("보기의 숫자를 다시 한번 확인해 주세요.");}}
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q4.txt");
@@ -180,7 +180,7 @@ public class bcgmatrix {
 		                        	Q4 = 5;
 		                            break loop;} 
 		                        else {
-		                        	System.out.println("1���� 2�� �߿����� �����ϼ���.");}}
+		                        	System.out.println("보기의 숫자를 다시 한번 확인해 주세요.");}}
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q5.txt");
@@ -193,7 +193,7 @@ public class bcgmatrix {
 		                        	Q5 = 5;
 		                            break loop;} 
 		                        else {
-		                        	System.out.println("1���� 2�� �߿����� �����ϼ���.");}}
+		                        	System.out.println("보기의 숫자를 다시 한번 확인해 주세요.");}}
 		                                        
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q6.txt");
@@ -206,7 +206,7 @@ public class bcgmatrix {
 		                        	Q6 = 5;
 		                            break loop;} 
 		                        else {
-		                        	System.out.println("1���� 2�� �߿����� �����ϼ���.");}}
+		                        	System.out.println("보기의 숫자를 다시 한번 확인해 주세요.");}}
 		                    
 		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q7.txt");
 		                    System.out.println("");
@@ -238,8 +238,8 @@ public class bcgmatrix {
 		                        	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\Star.txt");}}
 		                    
 		                     System.out.println("");                               
-		                     System.out.println("�ѹ��� ���� �Ͻðڽ��ϱ�?");
-		                     System.out.println("1�� - �ѹ���!       2��  - ����");
+		                     System.out.println("도움이 되셨나요?");
+		                     System.out.println("1. 메인으로 돌아가기!       2. 종료");
 		                     int a = scan.nextInt();
 		                     if(a == 1){
 		                         continue end;}
@@ -247,47 +247,47 @@ public class bcgmatrix {
 		                    	 break end;}}
     					
     					else if (b == 3) {
-    						System.out.println("������ �����ּ���. (���� : ��)");
+    						System.out.println("실제 이익 측정 계산기");
 	                        System.out.println("");
 	                        Scanner scanner = new Scanner(System.in);
 	                         
-	                        System.out.println("��������� �Է����ּ���.");
+	                        System.out.println("제품 및 서비스 판매 가격 (단위 원)");
 	                        double A = scanner.nextDouble();
 	                        System.out.println("");
-	                        System.out.println("������ �Է��� �ּ���. ");
+	                        System.out.println("예상 판매량 (단위 개수)");
 	                        double B = scanner.nextDouble();
 	                        System.out.println("");
-	                        System.out.println("����(����)�� �Է��� �ּ���. ");
+	                        System.out.println("고정 비용 (단위 원)");
 	                        double C = scanner.nextDouble();
 	                        System.out.println("");
-	                        System.out.println("��� ���並 �Է��� �ּ���. ");
+	                        System.out.println("변동 비용 (단위 원)");
 	                        double D = scanner.nextDouble();
 	                        System.out.println("");
 	                         
-	                        double benefit = C*D;
-	                        System.out.println("�� ���� : " + benefit);
+	                        double benefit = A*B;
+	                        System.out.println("매출액 : " + benefit);
 	                        System.out.println("");
 	                         
-	                        double cost = (B*D)+A;
-	                        System.out.println("�� ��� : " + cost);
+	                        double cost = C + D;
+	                        System.out.println("매출 이익률 : " + cost);
 	                        System.out.println("");
 	
 	                        double realbenefit = benefit - cost;
 	                        if(realbenefit > 0){
-	                            System.out.println("������ : " + realbenefit);
-	                            System.out.println("�����Դϴ�.");
+	                            System.out.println("순수익 : " + realbenefit);
+	                            System.out.println("흑자 입니다.");
 	                            System.out.println("");}
 	                         else if (realbenefit<0){
-	                            System.out.println("������ : " + realbenefit);
-	                            System.out.println("�����Դϴ�.");
+	                            System.out.println("순수익 : " + realbenefit);
+	                            System.out.println("적자 입니다.");
 	                            System.out.println("");}
 	                         else{
-	                            System.out.println("������ : " + realbenefit);
-	                            System.out.println("�����Դϴ�.");
+	                            System.out.println("순수익 : " + realbenefit);
+	                            System.out.println("손익 분기점입니다.");
 	                            System.out.println("");}
 	                        System.out.println("");                       // �躸�� 384~
-	                        System.out.println("�ѹ��� ���� �Ͻðڽ��ϱ�?");
-	                        System.out.println("1�� - �ѹ���!       2��  - ����");
+	                        System.out.println("도움이 되셨나요?");
+	                        System.out.println("1. 메인으로 돌아가기!       2. 종료");
 	                        int a = scan.nextInt();
                             if(a == 1){
                             	continue end;}
@@ -296,7 +296,28 @@ public class bcgmatrix {
     			
     			else if (m == 2) {
     				System.out.println("끝");
-    				break;}}}
+    				break;}
+    			
+    			else if (m == 3) {
+    				Scanner manager = new Scanner(System.in);
+    				int ID[] = new int[2];
+    				int id = 14381012;
+    				int con = 2;
+    				
+    				System.out.println("********** 관리자 모드 입니다. **********");
+    				loop: for (int t = 0; t < 3; t++) {
+    					System.out.println("아이디와 비번을 입력해주세요.");
+    					System.out.print("ID >>>>");
+    					ID[0] = manager.nextInt();
+    					System.out.print("PW >>>>");
+    					ID[1] = manager.nextInt();
+    					
+    					if (ID[0] == 14381012 && ID[1] == 12345) {
+    						System.out.println("접속");
+    					}
+    				}
+    				
+    			}}}
          
 	static void reader(String name) {
 		FileReader r = null;
@@ -380,36 +401,22 @@ public class bcgmatrix {
 
       try {
 
-         // ���� ��ü ����
          File file = new File(fileName);
 
-         // true ������ ������ ���� ���뿡 �̾ �ۼ�
          BufferedWriter out = new BufferedWriter(new FileWriter(fileName));
 
          // ���Ͼȿ� ���ڿ� ����
-         out.write("ȸ�� �̸�\n" + txt);
+         out.write("회사 명 : " + txt2);
          out.newLine();
          out.newLine();
-         out.write(txt);
+         out.write("사업자 등록 번호 : " + txt);
          out.newLine();
          out.newLine();
-         out.write("����� ��� ��ȣ");
+         out.write("사업자 등록일 : " + txt1);
          out.newLine();
          out.newLine();
-         out.write(txt1);
-         out.newLine();
-         out.newLine();
-         out.write("ȸ�� ��ǥ��");
-         out.newLine();
-         out.newLine();
-         out.write(txt2);
-         out.newLine();
-         out.newLine();
-         out.write("BCG�׽�Ʈ�� ���� �����");
-         out.newLine();
-         
 
-         // ��ü �ݱ�
+
          out.close();
 
       } catch (Exception e) {

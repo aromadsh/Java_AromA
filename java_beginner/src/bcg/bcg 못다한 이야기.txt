@@ -1,0 +1,257 @@
+else if (m == 3){
+		        	Scanner manager = new Scanner(System.in);
+		        	int ID[] = new int[2];
+		            int id = 14681001;
+		            int con = 2;
+		            
+		            System.out.println("***********관리자 모드 입니다***********");
+		            loop: for (int t = 0; t < 3; t++) {
+		            	System.out.println("아이디와 비번을 입력해주세요. ");
+		                System.out.print("ID>>>>>");
+		                ID[0] = manager.nextInt();
+		                System.out.print("PW>>>>>");
+		                ID[1] = manager.nextInt();
+		
+		                if (ID[0] == 14681001 && ID[1] == 12345 || ID[0] == 14681025 && ID[1] == 12345 || ID[0] == 14581014 && ID[1] == 12345
+		                     || ID[0] == 14381012 && ID[1] == 12345 || ID[0] == 14681021 && ID[1] == 12345 || ID[0] == 14681014 && ID[1] == 12345
+		                     || ID[0] == 14781016 && ID[1] == 12345) {
+		                	
+		                	System.out.println("�̿��Ͻ� ���� ��ȣ�� �Է��ϼ���.");
+		                    System.out.println("���� �����ϱ� START");
+		                    
+		                    while(true){
+		                    	System.out.println("<<���� �����ϱ�>>");
+			                    System.out.println("1�� - �Ϲ� ����� ���� , 2�� - VIP ����� ����");
+			                   
+			                    Q1 = manager.nextInt();
+			                    if(Q1 == 1){
+			                    	System.out.println("<<���� �����ϱ�>>");
+					                System.out.println("   �Ϲ� ����� ����    ");
+					                System.out.println("������ ������ȣ�� �Է��ϼ���. < 1��~5�� > ");
+					
+					                  int Qch = 0;
+					                  String WR = null;
+					                  String test = null;
+					                  
+			                  
+			                  while(true){
+			                  Qch = manager.nextInt();
+			                  
+			                  switch (Qch) {
+			                  case 1:
+			                     reader("C:/1_Q1.txt");
+			                     System.out.println("");
+			                     System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+			
+			                     WR = manager.next();
+			                     writer(WR,"C:/1_Q1.txt");
+			
+			                     System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+			                     System.out.println(">>>>>>>>>>>"+WR);
+			                     break loop;
+			                  case 2:
+			                     
+			                     reader("C:/1_Q2.txt");
+			                     System.out.println("");
+			                     System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+			
+			                     WR = manager.next();
+			                     writer(WR,"C:/1_Q2.txt");
+			
+			                     System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+			                     System.out.println(">>>>>>>>>>>"+WR);
+			                     break loop;
+			                     
+			                  case 3:
+			                     
+			                     reader("C:/1_Q3.txt");
+			                     System.out.println("");
+			                     System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+			
+			                     WR = manager.next();
+			                     writer(WR,"C:/1_Q3.txt");
+			
+			                     System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+			                     System.out.println(">>>>>>>>>>>"+WR);
+			                     break loop;
+			                     
+			                  case 4:
+			                     reader("C:/1_Q4.txt");
+			                     System.out.println("");
+			                     System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+			
+			                     WR = manager.next();
+			                     writer(WR,"C:/1_Q4.txt");
+			
+			                     System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+			                     System.out.println(">>>>>>>>>>>"+WR);
+			                     break loop;
+			                  case 5:
+			                     reader("C:/1_Q5.txt");
+			                     System.out.println("");
+			                     System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+			
+			                     WR = manager.next();
+			                     writer(WR,"C:/1_Q5.txt");
+			
+			                     System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+			                     System.out.println(">>>>>>>>>>>"+WR);
+			                     break loop;
+			                     default:
+			                        System.out.println("1~5 ���� ������ ������ �� �ֽ��ϴ�. �ٽ� �Է��ϼ���");
+			                  }
+			                  }
+			                   }// ����������� if��
+			                    
+			                    
+			                    else if( Q1 == 2){
+			                                       
+			                        
+			                        System.out.println("<<���� �����ϱ�>>");
+			                        System.out.println("   VIP ����� ����     ");
+			                        System.out.println("������ ������ȣ�� �Է��ϼ���. < 1��~8�� > ");
+			
+			                        int Qch = 0;
+			                        String WR = null;
+			                        String test = null;
+                        
+                        
+                        while(true){
+                        Qch = manager.nextInt();
+                        
+                     
+                        
+                        switch (Qch) {
+                        case 1:
+                           reader("C:/1_Q1.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/1_Q1.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                        case 2:
+                           
+                           reader("C:/1_Q2.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/1_Q2.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                           
+                        case 3:
+                           
+                           reader("C:/1_Q3.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/1_Q3.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                           
+                        case 4:
+                           reader("C:/1_Q4.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/1_Q4.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                        case 5:
+                           reader("C:/1_Q5.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/1_Q5.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                        case 6:
+                           reader("C:/2_Q6.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/2_Q6.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                        case 7:
+                           reader("C:/2_Q7.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/2_Q7.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                        case 8:
+                           reader("C:/2_Q8.txt");
+                           System.out.println("");
+                           System.out.println("������ �ٽ� �Է��ϼ���.( ������  )");
+
+                           WR = manager.next();
+                           writer(WR,"C:/2_Q8.txt");
+
+                           System.out.println("�Ϸ�Ǿ����ϴ�.( ������  )");
+                           System.out.println(">>>>>>>>>>>"+WR);
+                           break loop;
+                        default:
+                              System.out.println("1~8 ���� ������ ������ �� �ֽ��ϴ�. �ٽ� �Է��ϼ���");
+                        }
+                        }
+                       
+                    }// �ڼ��� ��� ����
+                    
+                    System.out.println("");
+                     System.out.println("�ѹ��� ���� �Ͻðڽ��ϱ�?");
+                     System.out.println("1�� - �ѹ���!       2��  - ����");
+                     a = scan.nextInt();
+                     if(a == 1){
+                        continue end;
+                     }
+                     else if(a == 2){
+                        break end;
+                     }
+                  
+                  
+               } //while��
+               }// ���̵� �� ��� Ȯ�� if��
+               else {
+
+                  System.out.println("�Է������� Ʋ�Ƚ��ϴ� �ٽ� �Է����ּ���");
+                  System.out.print("������ " + con + "�� ���ҽ��ϴ�.  ");
+                  con -= 1;
+                  System.out.println("");
+               }
+                                                                  //    �躸�� 409 ~ 661
+         }                                                        /////////////////////////////////////////////////////
+         }
+
+         else {
+            System.out.println("1~3������ ���ڸ� �Է��� �ּ���");
+         }
+         
+         
+      
+      }
+
+   }
