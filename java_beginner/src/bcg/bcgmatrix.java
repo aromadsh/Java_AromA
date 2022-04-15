@@ -26,6 +26,7 @@ public class bcgmatrix {
     						System.out.println("--------------------BCG test start.--------------------");        
 	                        System.out.println("");
 	                        reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q1.txt");
+	                        reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A1.txt");
 	                		int QA[] = new int[2];
 	                		QA[0] = 5;
 	                        QA[1] = 10;
@@ -41,6 +42,7 @@ public class bcgmatrix {
 	                        
 	                        System.out.println("");
 	                        reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q2.txt");
+	                        reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A2.txt");
 		                    int QB[] = new int[2];
 		                    QB[0] = 10;
 		                    QB[1] = 5;
@@ -56,6 +58,7 @@ public class bcgmatrix {
 		                    
 		                    System.out.println("");
 		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q3.txt");
+		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A3.txt");
 			                int QC[] = new int[3];
 			                QC[0] = 10;
 			                QC[1] = 5;
@@ -72,6 +75,7 @@ public class bcgmatrix {
                      
 			                System.out.println("");
 			                reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q4.txt");
+			                reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A4.txt");
 			                int QD[] = new int[2];
 			                QD[0] = 10;
 			                QD[1] = 5;
@@ -87,6 +91,7 @@ public class bcgmatrix {
 			                
 		                    System.out.println("");
 		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q5.txt");
+		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A5.txt");
 			                int QE[] = new int[2];
 			                QE[0] = 5;
 			                QE[1] = 10;
@@ -129,6 +134,7 @@ public class bcgmatrix {
 			                
 			                loop: while (true) {
 			                	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q1.txt");
+			                	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A1.txt");
 			                	System.out.println("");
 		                        int a1 = scan.nextInt();
 		                        if (a1 == 1) {
@@ -142,6 +148,7 @@ public class bcgmatrix {
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q2.txt");
+		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A2.txt");
 		                        System.out.println("");
 		                        int b1 = scan.nextInt();
 		                        if (b1 == 1) {
@@ -155,6 +162,7 @@ public class bcgmatrix {
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q3.txt");
+		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A3.txt");
 		                        System.out.println("");
 		                        int c = scan.nextInt();
 		                        if (c == 1) {
@@ -171,6 +179,7 @@ public class bcgmatrix {
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q4.txt");
+		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A4.txt");
 		                        System.out.println("");
 		                        int d = scan.nextInt();
 		                        if (d == 1) {
@@ -184,6 +193,7 @@ public class bcgmatrix {
 
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q5.txt");
+		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A5.txt");
 		                        System.out.println("");
 		                        int e = scan.nextInt();
 		                        if (e == 1) {
@@ -197,6 +207,7 @@ public class bcgmatrix {
 		                                        
 		                    loop: while (true) {
 		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q6.txt");
+		                    	reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A6.txt");
 		                        System.out.println("");
 		                        int f = scan.nextInt();
 		                        if (f == 1) {
@@ -209,10 +220,12 @@ public class bcgmatrix {
 		                        	System.out.println("보기의 숫자를 다시 한번 확인해 주세요.");}}
 		                    
 		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q7.txt");
+		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A7.txt");
 		                    System.out.println("");
 		                    int g = scan.nextInt();
 		
 		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q8.txt");
+		                    reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A8.txt");
 		                    System.out.println("");
 		                    int h = scan.nextInt();
 
@@ -285,7 +298,7 @@ public class bcgmatrix {
 	                            System.out.println("순수익 : " + realbenefit);
 	                            System.out.println("손익 분기점입니다.");
 	                            System.out.println("");}
-	                        System.out.println("");                       // �躸�� 384~
+	                        System.out.println("");                      
 	                        System.out.println("도움이 되셨나요?");
 	                        System.out.println("1. 메인으로 돌아가기!       2. 종료");
 	                        int a = scan.nextInt();
@@ -313,11 +326,299 @@ public class bcgmatrix {
     					ID[1] = manager.nextInt();
     					
     					if (ID[0] == 14381012 && ID[1] == 12345) {
-    						System.out.println("접속");
+    						System.out.println("안녕하세요 ~ 관리자 모드 입니다.");
+    						System.out.println("관리자 모드에서는 설문 문항을 수정할 수 있습니다.");
+    						
+    						while (true) {
+    							System.out.println("<< 원하는 메뉴를 선택해 주세요.>>");
+    							System.out.println("1. 무료 회원 모드 , 2. 유료 회원 모드");
+    							
+    							Q1 = manager.nextInt();
+    							if (Q1 == 1) {
+    								System.out.println("<< 무료 회원 문항 관리자 모드 입니다.>>");
+    				                System.out.println("수정하고 싶은 문항을 숫자를 입력해주세요. < 1 ~ 5 문항 중 > ");
+    				                
+    				                int Qch = 0;
+    				                String WR1 = null;
+    				                String WR2 = null;
+    				                String test = null;
+    				                
+    				                while (true) {
+    				                	Qch = manager.nextInt();
+    				                	
+    				                	switch (Qch) {
+    				                	
+    				                	case 1 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q1.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A1.txt");
+    				                        System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q1.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A1.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 2 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q2.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A2.txt");
+    				                		System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q2.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A2.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 3 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q3.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A3.txt");
+    				                		System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q3.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A3.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 4 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q4.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A4.txt");
+    				                		System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q4.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A4.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                    
+    				                	case 5 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q5.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A5.txt");
+    				                        System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q5.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A5.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	default:
+    				                        System.out.println("1~5 중의 숫자를 선택해 주세요.");
+    				                	}
+    				                }
+    							}
+    							else if (Q1 == 2) {
+    								System.out.println("<< 유료 회원 문항 관리자 모드 입니다.>>");
+    				                System.out.println("수정하고 싶은 문항을 숫자를 입력해주세요. < 1 ~ 8 문항 중 > ");
+    				                
+    				                int Qch = 0;
+    				                String WR1 = null;
+    				                String WR2 = null;
+    				                String test = null;
+    				                
+    				                while (true) {
+    				                	Qch = manager.nextInt();
+    				                	
+    				                	switch (Qch) {
+    				                	
+    				                	case 1 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q1.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A1.txt");
+    				                        System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q1.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A1.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 2 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q2.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A2.txt");
+    				                		System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q2.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A2.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 3 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q3.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A3.txt");
+    				                		System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q3.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A3.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 4 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q4.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A4.txt");
+    				                		System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q4.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A4.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                    
+    				                	case 5 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q5.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A5.txt");
+    				                        System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q5.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_A5.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 6 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q6.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A6.txt");
+    				                        System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q6.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A6.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 7 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q7.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A7.txt");
+    				                        System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q7.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A7.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	case 8 :
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q8.txt");
+    				                		reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A8.txt");
+    				                        System.out.println("\n수정할 문제를 입력해 주세요.");
+    				                        WR1 = manager.next();
+    				                        WR1 = manager.nextLine();
+    				                        System.out.println("\n수정할 보기를 입력해 주세요.");
+    				                        WR2 = manager.next();
+    				                        WR2 = manager.nextLine();
+    				                        writer(WR1,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_Q8.txt");
+    				                        writer(WR2,"C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\2_A8.txt");
+
+    				                        System.out.println("수정이 완료 되었습니다.");
+    				                        System.out.println(">>>>>>>>>>>"+WR1);
+    				                        System.out.println(">>>>>>>>>>>"+WR2);
+    				                        break loop;
+    				                        
+    				                	default:
+    				                        System.out.println("1~8 중의 숫자를 선택해 주세요.");
+    				                	}
+    				                }
+    							}
+    							System.out.println("");                       // �躸�� 384~
+    	                        System.out.println("도움이 되셨나요?");
+    	                        System.out.println("1. 메인으로 돌아가기!       2. 종료");
+    	                        int a = scan.nextInt();
+                                if(a == 1){
+                                	continue end;}
+                                else if(a == 2){
+                                	break end;}
+    						}
     					}
+    					else {
+
+    		                  System.out.println("아이디 또는 비번이 틀렸습니다.");
+    		                  System.out.print("앞으로 로그인 기회는" + con + "번 남았습니다.");
+    		                  con -= 1;
+    		                  if (con == -1) {
+    		                	  break end;}
+    		               }
     				}
     				
-    			}}}
+    				
+    			}
+    			else {
+    				System.out.println("1~3번 중 하나를 선택해주세요");
+    			}
+    		}}
          
 	static void reader(String name) {
 		FileReader r = null;
@@ -338,9 +639,9 @@ public class bcgmatrix {
 
          }
       } catch (FileNotFoundException fnfe) {
-         System.out.println("������ �������� �ʽ��ϴ�.");
+         System.out.println("파일이 존재 하지 않습니다.");
       } catch (IOException ioe) {
-         System.out.println("������ ���� �� �����ϴ�.");
+         System.out.println("파일을 읽을 수 없습니다.");
       } finally {
          try {
             r.close();
@@ -360,16 +661,16 @@ public class bcgmatrix {
          
          pw.close();
       } catch (IOException e) {
-         System.err.println(e); // ������ �ִٸ� �޽��� ���
+         System.err.println(e); 
          System.exit(1);
       }
 
-   }                                                     //      ~ 719 �ۼ��� �躸��//////////////////////////////////////////
+   }                                                    
    
   
    
 
-   static void users() {                                     // �ۼ��� : ������    724~     /////////////////////////////////////////
+   static void users() {                                    
 
       Scanner scan = new Scanner(System.in);
 
@@ -396,7 +697,7 @@ public class bcgmatrix {
       String txt = A;
       String txt1 = B;
       String txt2 = C;
-      reader("C:\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\1_Q1.txt");
+      
       String fileName = "\\Users\\rnru1\\Java_AromA\\java_beginner\\src\\bcg\\"+ C +".txt";
 
       try {
@@ -405,7 +706,7 @@ public class bcgmatrix {
 
          BufferedWriter out = new BufferedWriter(new FileWriter(fileName));
 
-         // ���Ͼȿ� ���ڿ� ����
+         
          out.write("회사 명 : " + txt2);
          out.newLine();
          out.newLine();
@@ -423,7 +724,6 @@ public class bcgmatrix {
          e.printStackTrace();
       }                 
 
-   }                                                    // �ۼ��� : ������    724~  792   /////////////////////////////////////////
-
+   }                                                   
 }
    
